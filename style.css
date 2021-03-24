@@ -1,3 +1,7 @@
+:root {
+    --gray: #0b0b0b;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -48,30 +52,39 @@ h2 {
     margin: auto;
 }
 .project-container {
-    color: #000000;
     display: grid;
-    grid-gap: 50px 40px;
+    grid-gap: 1em 1em;
     padding: 5% 4%;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-
     /* border: 1px solid red; */
-    
 }
 .project-item {
     /* font-size: 5em; */
+    text-align: left;
     position: relative;
-    height: 220px;
-    width: 100%;
-    padding: 5% 10% 0 20%;
+    height: 200px;
+    /* width: 100%; */
+    padding: 0% 0% 0% 10%;
     margin-bottom: 0;
+    background: var(--gray);
+    color: white;
     /* border: 1px solid rgb(1, 250, 13); */
     border-radius: 50px;
 }
+
+/* border-radius: 5px;
+    background: var(--gray);
+    padding: 2.5rem 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+    font-weight: 400; */
+
+
 .hd-5 {
     display: block;
     margin-left: 5%;
-    color: gray;
+    color: red
     letter-spacing: 0.1em;
 }
 .hd-3 {
@@ -97,7 +110,7 @@ p {
 .project-name {
     font-size: 2.5em;
 }
-#one {
+/* #one {
     background-image: linear-gradient(to bottom, #fdf28f,  #fff9c7);
 }
 #two {
@@ -111,7 +124,7 @@ p {
 }
 #five {
     background-image: linear-gradient(to left, #bcf8ee, #ffb8f7);
-}
+} */
 
 a {
     color: inherit;
